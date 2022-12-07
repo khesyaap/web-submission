@@ -1,0 +1,412 @@
+@font-face{
+    font-family: "Cute Font";
+    src: url('Cute\ Font.ttf');
+}
+@font-face {
+    font-family: "Bettins";
+    src: url('Bettins.ttf');
+}
+@font-face {
+    font-family: "Love Rabbit";
+    src: url('Love\ Rabbit.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: #AEBDCA;
+}
+nav{
+    height: 105px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #7895B2;
+}
+#logo{
+    color: #9E7676;
+    font-size: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: "Cute Font";
+}
+span{
+    color: #E3D8BE;
+    font-size: 50px;
+    font-family: "Bettins";
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 25px;
+}
+nav ul li a{
+    color: #E3D8BE;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: "Love Rabbit";
+}
+nav ul li a:hover{
+    color: #9E7676;
+    transition: .5s;
+}
+.btn{
+    background-color: #AEBDCA;
+    color: #9E7676;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform.5s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    margin-top: 170px;
+}
+#aside{
+    position: absolute;
+    top: 48%;
+    left: 23%;
+}
+.content-text{
+    float: left 30px;
+    /* margin-left: -50px; */
+}
+.content h2{
+   color: #E3D8BE;
+   text-align: center;
+   font-size: 40px;
+   font-family: 'Cute Font';
+   /* margin-left: -70px; */
+}
+.content h3{
+    color: #9E7676;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Bettins";
+    /* margin-left: -70px; */
+}
+.btn{
+    background-color: #AEBDCA;
+    color: #9E7676;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform.5s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+#about{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #7895B2;
+}
+.about img{
+    width: 250px;
+}
+.about text{
+    height: auto;
+    width: 530px;
+}
+.main{
+    width: 1130px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: #9E7676;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: "Cute Font";
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-left: 20px;
+}
+.about-text p{
+    color: #E3D8BE;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-family: "Love Rabbit";
+    text-align: left;
+    margin-left: 20px;
+}
+button{
+    background-color: #AEBDCA;
+    color: #9E7676;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .5s;
+    margin-left: 20px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #AEBDCA;
+    cursor: pointer;
+}
+#main{
+    background-color: #AEBDCA;
+    justify-items:center;
+    width: 100%;
+    padding: 90px 0px;
+}
+.section1{
+    color: #E3D8BE;
+    font-size: 50px;
+    display: flexbox;
+    text-align: center;
+    font-family: "Cute Font";
+    margin-top: 30px;
+}
+.section2{
+    text-align: center;
+    color: #9E7676;
+    letter-spacing: 2;
+    font-size: 23px;
+    font-family: 'Bettins';
+    margin-bottom: 40px;
+
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #7895B2;
+    width: 1010px;
+    height: 375px;
+    margin: 45px auto;
+    border-radius: 33px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+.detail-mobile{
+    width: 505px;
+    margin: 89px 20px 102px 115px;
+    margin-bottom: 60px;
+}
+.pict-mobile1{
+    width: 178px;
+    margin: 65px 88px 20px;
+    margin-top: 20px;
+    padding-right: 60px;
+
+}
+.detail-mobile h2{
+    color: #9E7676;
+    font-size: 30px;
+    right: 50px;
+    margin-top: -50px ;
+    text-align: left;
+    justify-items: center;
+    justify-content: center;
+    font-family: "Cute Font";
+}
+.detail-mobile p{
+    color: #E3D8BE;
+    text-align: left;
+    width: 550px;
+    margin-top: 18px;
+    line-height: 30px;
+    font-family: "Love Rabbit";
+    margin-bottom: 30px;
+    justify-items: center;
+    justify-content: center;
+}
+#button_project1{
+    background-color: #AEBDCA;
+    color: #9E7676;
+    width: fit-content;
+    padding: 14px 30px;
+    font-size: 25px;
+    border-radius: 52px;
+    opacity: 0.75;
+    transition: 0.5s;
+    margin-left: -2px;
+    
+}
+#button_project1:hover{
+    background-color: transparent;
+    border: 2px solid #AEBDCA;
+    cursor: pointer;
+}
+.projects2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #7895B2;
+    width: 1010px;
+    height: 375px;
+    margin: 45px auto;
+    border-radius: 33px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+.detail-mobilee{
+    width: 505px;
+    margin: 89px 20px 102px 115px;
+    margin-bottom: 60px;
+}
+.pict-mobile2{
+    width: 178px;
+    margin: 65px 88px 20px;
+    margin-top: 20px;
+    padding-right: 60px;
+
+}
+.detail-mobilee h2{
+    color: #9E7676;
+    font-size: 30px;
+    right: 50px;
+    margin-top: -50px ;
+    text-align: left;
+    justify-items: center;
+    justify-content: center;
+    font-family: "Cute Font";
+}
+.detail-mobilee p{
+    color: #E3D8BE;
+    text-align: left;
+    width: 550px;
+    margin-top: 18px;
+    line-height: 30px;
+    font-family: "Love Rabbit";
+    margin-bottom: 30px;
+    justify-items: center;
+    justify-content: center;
+}
+#button_project2{
+    background-color: #AEBDCA;
+    color: #9E7676;
+    width: fit-content;
+    padding: 14px 30px;
+    font-size: 25px;
+    border-radius: 52px;
+    opacity: 0.75;
+    transition: 0.5s;
+    margin-left: -2px;
+}
+#button_project2:hover{
+    background-color: transparent;
+    border: 2px solid #AEBDCA;
+    cursor: pointer;
+}
+.projects3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #7895B2;
+    width: 1010px;
+    height: 375px;
+    margin: 45px auto;
+    border-radius: 33px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+.detail-mobileee{
+    width: 505px;
+    margin: 89px 20px 102px 115px;
+    margin-bottom: 60px;
+}
+.pict-mobile3{
+    width: 178px;
+    margin: 65px 88px 20px;
+    margin-top: 20px;
+    padding-right: 60px;
+
+}
+.detail-mobileee h2{
+    color: #9E7676;
+    font-size: 30px;
+    right: 50px;
+    margin-top: -50px ;
+    text-align: left;
+    justify-items: center;
+    justify-content: center;
+    font-family: "Cute Font";
+}
+.detail-mobileee p{
+    color: #E3D8BE;
+    text-align: left;
+    width: 550px;
+    margin-top: 18px;
+    line-height: 30px;
+    font-family: "Love Rabbit";
+    margin-bottom: 30px;
+    justify-items: center;
+    justify-content: center;
+}
+#button_project3{
+    background-color: #AEBDCA;
+    color: #9E7676;
+    width: fit-content;
+    padding: 14px 30px;
+    font-size: 25px;
+    border-radius: 52px;
+    opacity: 0.75;
+    transition: 0.5s;
+    margin-left: -2px;
+}
+#button_project3:hover{
+    background-color: transparent;
+    border: 2px solid #AEBDCA;
+    cursor: pointer;
+}
+footer{
+    background-color: #7895B2;
+    height: 200px;
+    display:flex;
+    flex-direction:row;        
+    align-items:center;
+    justify-content:space-around;
+}
+footer div a{
+    background-color:white;
+    border-radius:55%;
+    height:60px;
+    width:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    white-space:pre-line;
+    overflow:hidden;
+}
+footer div a:hover{
+    border-radius:50%;
+    transform: scale(1.2);
+}
+footer div a img{
+    border-radius:50%;
+}
+footer div p{
+    text-align:center;
+    font-family: "Love Rabbit";
+    letter-spacing: 10;
+    color: #E3D8BE;
+}
+footer h2{
+    font-size: 50px;
+    color: #9E7676;
+    font-family: "Cute Font";
+}
